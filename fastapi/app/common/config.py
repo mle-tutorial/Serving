@@ -15,8 +15,7 @@ class Config:
     DB_PORT: str = os.environ.get("DB_PORT", "5432")
     DB_NAME: str = os.environ.get("DB_NAME", "stock")
     DB_URL: str = (
-        f"postgresql://{DB_USER}:{DB_PASSWD}"
-        f"@{DB_HOST}:{DB_PORT}/{DB_NAME}"
+        f"postgresql://{DB_USER}:{DB_PASSWD}" f"@{DB_HOST}:{DB_PORT}/{DB_NAME}"
     )
     DOCS_URL: str = "/docs"
     REDOC_URL: str = "/redoc"

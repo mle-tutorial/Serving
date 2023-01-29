@@ -1,6 +1,7 @@
-from app.common.config import Config
 from dataclasses import asdict
+
 import mlflow
+from app.common.config import Config
 
 conf_dict = asdict(Config())
 mlflow.set_tracking_uri(conf_dict["MLFLOW_URI"])

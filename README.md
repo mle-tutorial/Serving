@@ -17,4 +17,5 @@
 <br>
 
 # 참고자료
-[도커 설치하기]()  
+[개발환경 세팅하기(windows)](https://docs.google.com/presentation/d/1SE6P9tg3AGanryelHhF7qJ2hgwrOXZm8Q46O_7nXD6U/edit?usp=sharing)  
+[개발환경 세팅하기(mac)](https://docs.google.com/presentation/d/1IbSSqU9mgfRvR511I_2zpWQVKgLyoiBhWu42mKWayWw/edit?usp=sharing)
